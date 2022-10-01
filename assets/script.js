@@ -23,40 +23,49 @@
 var upperCase= "A, B, C, D, E, F, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z";
 var lowerCase= "a, b, c, d, e, f, g, h, i, j, l, m, n ,o, p, q, r, s, t, u, v, w, x, y, z";
 var special="!,@,#,$, %,^, &,* ,(,),-,  _,+,=,~,`,<,>,/,?,{,},[,],|,";
-var numbers=8-128;
+var password="uppercase,lowercase, special,numbers.length";
+var password="generate password";
+var passwordlength=" > 8";
 
-if( numbers.length > 8){ //is true
-    the special characters and length 8-128 //are ture
-     < 8 //is false
+window.prompt("upperCase click ok")
+
+window.prompt("lowerCase click ok")
+
+window.prompt("spcecial characters click ok")
+
+window.prompt("pasword:length 8-128")
+
+//call the function 
+//getrandomupperCase(); {
+    //var letters="A, B, C, D, E, F, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z";
+    //return letters [upper math.floor(math.random()] * options.length)];
+
+//}
+
+//var numbers.length= x is >=8 <=128
+
+if('generate password') {
+    "password:length" >  8 < 128 //is true
+}   else {
+    "password:length" < 8 //is false
 }
 
-var password="uppercase,lowercase, special,numbers.length";
 
 
-
-window.prompt("upperCase yes or no")
-
-window.prompt("lowerCase yes or no")
-
-window.prompt("spcecial characters yes or no")
-
-window.prompt("pasword length")
-
-//call the function  
  
 //var password="generate password";
 //var generate password= math.floor(math.random( ) * options.length)
 
-//function buttonclick( passWord) {
+//function buttonclick( generate passWord) {
     //generate password=[(math.floor(math.random))* (numbers.length)]
 //}
 
 // function// Get references to the #generate element
  //var generateBtn = document.querySelector("#generate");
 
-for button click ("generate password ")';'
+//for button click ("generate password ")';'
 
-}
+//}
 
 // // Write password to the #password input
 // function writePassword() {
