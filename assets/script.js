@@ -73,17 +73,22 @@ if (length >  8){//is true
  //var generateBtn = document.querySelector("#generate");
 
 if (clickButton); {
-        i=8-128;
-        for(var i = 8; i ,10; i++) 
-        {
+        i= 8 < 128;
+        for(var i = 8; i < 10; i++) {
+
+        }
+
+// // Add event listener to generate button
+// generateBtn.addEventListener("click", writePassword);git add}
+//var passwordText = document.querySelector("#password");
  
 
 
-//}
+
 
 // // Write password to the #password input
 // function writePassword() {
-//   var password = generatePassword 
+
  //var generate password = math.floor(math.random( ) * options.length)
  
 //var passwordText = document.querySelector("#password");
@@ -94,4 +99,4 @@ if (clickButton); {
 
 // // Add event listener to generate button
 // generateBtn.addEventListener("click", writePassword);git add}
- 
+    }
