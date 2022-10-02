@@ -24,21 +24,15 @@ var upperCase= "A, B, C, D, E, F, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W
 var lowerCase= "a, b, c, d, e, f, g, h, i, j, l, m, n ,o, p, q, r, s, t, u, v, w, x, y, z";
 var special="!,@,#,$, %,^, &,* ,(,),-,  _,+,=,~,`,<,>,/,?,{,},[,],|,";
 var password="uppercase,lowercase, special,numbers.length";
-var passwordlength=" > 8 < 128";
+//var length=" > 8 < 128";
 
-window.prompt("upperCase click ok")
+window.prompt("UpperCase click ok")
 
-window.prompt("lowerCase click ok")
+window.prompt("LowerCase click ok")
 
-window.prompt("spcecial characters click ok")
+window.prompt("Special characters click ok")
 
-window.prompt("pasword:length 8-128")
-
-
-
-var  upperCase,lowerCase,special,length= "generate password"
-
-
+window.prompt("Pasword length choose between 8-128 characters")
 
 //call the function 
 //getrandomupperCase(); {
@@ -46,22 +40,27 @@ var  upperCase,lowerCase,special,length= "generate password"
     //return letters [upper math.floor(math.random()] * options.length)];
 
 //}
+//var length= "(length > 8)(length< 128)";
 
-//var numbers.length= x is >=8 <=128
-
-if('generate password') {
-    "password:length" >  8 < 128 //is true
-}   else {
-    "password:length" < 8 //is false
+if (length >  8){//is true
+        (length < 128) //is true
+}        else {
+        length < 8 //is false
 }
 
-var generate password ="buttonClick";
 
- function buttonClick('generate password':length): {
-    (math.floor(math.random)() * options.length);
- }  else {
-    invalid
- }
+
+
+
+
+
+
+
+//var generate password="buttonClick";
+
+// function(length  of passWord); {
+   // (math.floor(math.random)() * length);
+ //} 
  
 //var password="generate password";
 //var generate password= math.floor(math.random( ) * options.length)
@@ -73,9 +72,10 @@ var generate password ="buttonClick";
 // function// Get references to the #generate element
  //var generateBtn = document.querySelector("#generate");
 
- //if clickButton(); 
-       //i=8-128;
-       // for(var i = 8; i ,10; i++) {
+if (clickButton); {
+        i=8-128;
+        for(var i = 8; i ,10; i++) 
+        {
  
 
 
@@ -94,4 +94,4 @@ var generate password ="buttonClick";
 
 // // Add event listener to generate button
 // generateBtn.addEventListener("click", writePassword);git add}
- //}
+ 
