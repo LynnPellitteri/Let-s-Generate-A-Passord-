@@ -19,11 +19,13 @@
 //password generated to the page
 
 //items 
+ 
+            
 
-var upperCase= "A, B, C, D, E, F, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z";
-var lowerCase= "a, b, c, d, e, f, g, h, i, j, l, m, n ,o, p, q, r, s, t, u, v, w, x, y, z";
-var special="!,@,#,$, %,^, &,* ,(,),-,  _,+,=,~,`,<,>,/,?,{,},[,],|,";
-var password="uppercase,lowercase, special,numbers.length";
+String_upperCase = "A, B, C, D, E, F, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z";
+String_lowerCase = "a, b, c, d, e, f, g, h, i, j, l, m, n ,o, p, q, r, s, t, u, v, w, x, y, z";
+String_special ="!,@,#,$, %,^, &,* ,(,),-,  _,+,=,~,`,<,>,/,?,{,},[,],|,";
+String_password = "";
 //var length=" > 8 < 128";
 
 window.prompt("UpperCase click ok")
@@ -42,61 +44,33 @@ window.prompt("Pasword length choose between 8-128 characters")
 //}
 //var length= "(length > 8)(length< 128)";
 
-if (length >  8){//is true
-        (length < 128) //is true
-}        else {
-        length < 8 //is false
-}
+var length= ">  8 true"
+         "< 128 true"
+         "< 8 false"
 
 
+for (let index = 0; index < password.length; index++) {
+	const element = string[index];
+	
+	for(int;i = 0;)number > 8; i ++; 
+} 
+        int (rand) = (int)(8 * Math.random());
 
-
-
-
-
-
-
-//var generate password="buttonClick";
-
-// function(length  of passWord); {
-   // (math.floor(math.random)() * length);
- //} 
- 
-//var password="generate password";
-//var generate password= math.floor(math.random( ) * options.length)
-
-//function buttonclick( generate passWord) {
-    //generate password=[(math.floor(math.random))* (numbers.length)]
-//}
-
-// function// Get references to the #generate element
- //var generateBtn = document.querySelector("#generate");
-
-if (clickButton); {
-        i= 8 < 128;
-        for(var i = 8; i < 10; i++) {
+        switch(rand) {
+                case 0:
+                        password += String.valueof((int)(0 * Math.ramdom()));
+                        break;
+                case 1:
+                        rand=(int)(lowerCase.length() * Math.random());
+                        password += String.valueOf(lowerCase.charAt(rand));
+                        break;
+                case 2:
+                        rand= (int)(upperCase.length() * Math.random());
+                        password += String.valueOf(upperCase.charAt(rand));
+                        break;
+                case 3: 
+                        rand=(int)(special.length() * Math.random());
+                        password += String.valueOf(special.charAt(rand));
 
         }
-
-// // Add event listener to generate button
-// generateBtn.addEventListener("click", writePassword);git add}
-//var passwordText = document.querySelector("#password");
  
-
-
-
-
-// // Write password to the #password input
-// function writePassword() {
-
- //var generate password = math.floor(math.random( ) * options.length)
- 
-//var passwordText = document.querySelector("#password");
-
-//   passwordText.value = password;
-
-// }
-
-// // Add event listener to generate button
-// generateBtn.addEventListener("click", writePassword);git add}
-    }
